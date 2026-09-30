@@ -32,6 +32,7 @@ a {
     background-color: #0096C7;
     padding: 0px 5px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 header a {
@@ -54,6 +55,7 @@ header a {
     flex-direction: column;
     width: 23%;
     gap: 5px;
+    flex-wrap: nowrap;
 }
 
 
@@ -62,6 +64,6 @@ h2 {
 }
 
 #tela-inicial img {
-    width: 550px;
+    width: 500px;
     height: auto;
 }
