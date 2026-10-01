@@ -31,7 +31,7 @@ a {
 .apertar-conheca {
     background-color: #0096C7;
     padding: 0px 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;
 }
 
@@ -40,7 +40,7 @@ header a {
 }
 
 #tela-inicial {
-    background-color: #25A18E;
+    background-color: #25a18e;
     display: flex;
     align-items: center;
     align-content: center;
@@ -54,10 +54,13 @@ header a {
     display: flex;
     flex-direction: column;
     width: 23%;
-    gap: 5px;
+    gap: 8px;
     flex-wrap: nowrap;
 }
 
+main {
+    background-color: #F7F4EA;
+}
 
 h2 {
     font-size: 45px;
@@ -66,4 +69,51 @@ h2 {
 #tela-inicial img {
     width: 500px;
     height: auto;
+}
+
+#destaque {
+    padding: 25px;
+}
+
+#cards {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+#poderes {
+    margin-left: 170px;
+    font-size: 35px;
+}
+
+#unicos {
+    background-color: #ff6a00e1;
+    border-radius: 20px;
+    padding: 10px;
+    width: 27%;
+}
+
+#mitos {
+    background-color: #ff6a00e1;
+    border-radius: 20px;
+    padding: 10px;
+    width: 27%;
+}
+
+#equipe {
+    background-color: #ff6a00e1;
+    border-radius: 20px;
+    padding: 10px;
+    width: 27%;
+}
+
+#parte-baixo {
+    text-align: center;
+    line-height: 30px;
+    padding: 15px;
+    background-color: #ddcab0b2;
 }
