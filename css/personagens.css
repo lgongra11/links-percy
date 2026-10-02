@@ -31,3 +31,34 @@ a {
 header a {
     font-size: 17px;
 }
+
+#inicio {
+    background-color: #25a18e;
+    padding: 25px;
+}
+
+#conheca {
+    font-size: 40px;
+}
+
+#titulo-cards {
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+main {
+    background-color: #fcf2d0;
+}
+#treinar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #A3CEEF;
+}
+
+#minisite {
+    font-size: 20px;
+}

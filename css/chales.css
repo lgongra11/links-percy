@@ -31,3 +31,16 @@ a {
 header a {
     font-size: 17px;
 }
+
+#treinar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #A3CEEF;
+}
+
+#minisite {
+    font-size: 20px;
+}
