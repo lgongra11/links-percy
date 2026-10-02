@@ -42,7 +42,7 @@ header a {
 }
 
 #titulo-cards {
-    font-size: 30px;
+    font-size: 35px;
     padding: 20px;
     margin-left: 15px;
 }
@@ -50,6 +50,32 @@ header a {
 main {
     background-color: #fcf2d0;
 }
+
+.card {
+    background-color: #ff6a00e1;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+.nomes {
+    font-size: 30px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #treinar {
     display: flex;
     align-items: center;
@@ -62,3 +88,4 @@ main {
 #minisite {
     font-size: 20px;
 }
+
