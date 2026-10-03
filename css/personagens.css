@@ -93,6 +93,7 @@ th, td, caption {
 th, caption {
     background-color: #ff6a00e1;
     font-size: 20px;
+    text-align: center;
 }
 
 td {

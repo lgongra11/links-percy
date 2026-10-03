@@ -77,6 +77,41 @@ main {
     justify-content: space-around;
 }
 
+table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td, caption {
+    border: 1px solid #C59B27;
+}
+
+th, caption {
+    font-size: 20px;
+    background-color: #ff6a00e1;
+}
+
+td {
+    font-size: 17px;
+}
+
+#aperta-quiz {
+    background-color: #c59b27ae;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#parte-baixo {
+    text-align: center;
+    line-height: 30px;
+    background-color: #ddcab0b2;
+    padding: 15px;
+}
+
 #treinar {
     display: flex;
     align-items: center;
