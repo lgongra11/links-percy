@@ -57,6 +57,7 @@ main {
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
+    border: 2px solid #C59B27;
 }
 
 .card img {
@@ -74,6 +75,28 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td, caption {
+    border: 1px solid #C59B27;
+}
+
+th, caption {
+    background-color: #ff6a00e1;
+    font-size: 20px;
+}
+
+td {
+    font-size: 17px;
 }
 
 #treinar {

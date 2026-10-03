@@ -32,6 +32,51 @@ header a {
     font-size: 17px;
 }
 
+#inicio {
+    background-color: #25a18e;
+    padding: 25px;
+}
+
+#conheca {
+    font-size: 40px;
+}
+
+#titulo-cards {
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+main {
+    background-color: #fcf2d0;
+}
+
+.card {
+    background-color: #ff6a00e1;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #C59B27;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 265px;
+}
+
+.nomes {
+    font-size: 30px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #treinar {
     display: flex;
     align-items: center;
